@@ -4,6 +4,8 @@
   "description": "",
   "main": "vaccineNotifier.js",
   "scripts": {
+    "start": "pm2 start vaccineNotifier.js",
+    "stop": "pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sharmakartikey54@gmail.com",
